@@ -8,3 +8,14 @@
   color: #555;
   line-height: 1.6;
 }
+
+html {
+  scroll-behavior: smooth;
+}   
+
+.hero-fullscreen {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
