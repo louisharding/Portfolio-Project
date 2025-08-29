@@ -22,13 +22,15 @@
     <header>
       <a href="index.html" id="logo"></a>
       <!-- Navigation Bar -->
-      <nav hidden="true">
+      <nav hidden="true" aria-label="Main navigation">
         <ul id="menu">
           <!-- Navigation items go here -->
         </ul>
       </nav>
       <!-- Hero Section 1: Classic Jumbotron Style -->
-      <section class="gradient-primary py-5 text-center min-vh-100 d-flex flex-column justify-content-center">
+      <section
+        class="gradient-primary py-5 text-center min-vh-100 d-flex flex-column justify-content-center"
+      >
         <h1 class="display-4 fw-bold">Diversity and Equality</h1>
         <p class="lead">Makes life better for me, them and you.</p>
         <div class="container">
@@ -37,86 +39,216 @@
               src="assets/images/peopleInField.png"
               alt="Diversity illustration"
               class="img-fluid my-4 hero-img w-100"
-              style="cursor: pointer; opacity: 0.25; object-fit: cover; height: 60vh; max-height: 80vh;"
+              style="
+                cursor: pointer;
+                opacity: 0.25;
+                object-fit: cover;
+                height: 60vh;
+                max-height: 80vh;
+              "
             />
             <div
               class="position-absolute top-50 start-50 translate-middle px-4 py-2 rounded shadow"
-              style="background: rgba(255, 255, 255, 0.8); color: #333; font-size: 1.5rem; font-weight: 600; font-family: 'Inter', sans-serif;"
-            >How?</div>
+              style="
+                background: rgba(255, 255, 255, 0.8);
+                color: #333;
+                font-size: 1.5rem;
+                font-weight: 600;
+                font-family: 'Inter', sans-serif;
+              "
+            >
+              How?
+            </div>
           </a>
         </div>
       </section>
     </header>
 
-    <!-- BS Fixed width container adapts to screen size with padding between screen. my-5 is margin for y axis of 5, bootstrap's largest predefined scale'-->
-    <section id="infocards-section">
-      <div class="container my-5 min-vh-100 d-flex flex-column justify-content-center gradient-accent infocards-container">
-        <!-- BS grid container for horizontal columns -->
-        <div class="row g-4">
-          <!-- Card 1 -->
-          <div class="col-md-4">
-            <div class="card h-100 text-center">
-              <div class="card-body">
-                <h3 class="card-title">The Meaning</h3>
-                <p class="card-text">
-                  Equality is a fundamental human right that ensures everyone has access to the same opportunities and resources, regardless of their background or identity. It promotes fairness and justice in society, helping to eliminate discrimination and prejudice. By fostering an inclusive environment, equality enhances social cohesion and mutual respect among diverse groups. This leads to a more harmonious and productive community where individuals can thrive and contribute their unique perspectives and talents. Ultimately, equality is essential for building a just society where everyone can achieve their full potential.
-                </p>
+    <main>
+      <!-- BS Fixed width container adapts to screen size with padding between screen. my-5 is margin for y axis of 5, bootstrap's largest predefined scale'-->
+      <section id="infocards-section">
+        <div
+          class="container my-5 min-vh-100 d-flex flex-column justify-content-center gradient-accent infocards-container"
+        >
+          <!-- BS grid container for horizontal columns -->
+          <div class="row g-4">
+              <!-- Card 1 -->
+              <div class="col-md-4">
+                <article class="card h-100 text-center">
+                  <div class="card-body">
+                    <h3 class="card-title">The Meaning</h3>
+                    <p class="card-text">
+                      Equality is a fundamental human right that ensures everyone
+                      has access to the same opportunities and resources,
+                      regardless of their background or identity. It promotes
+                      fairness and justice in society, helping to eliminate
+                      discrimination and prejudice. By fostering an inclusive
+                      environment, equality enhances social cohesion and mutual
+                      respect among diverse groups. This leads to a more
+                      harmonious and productive community where individuals can
+                      thrive and contribute their unique perspectives and talents.
+                      Ultimately, equality is essential for building a just
+                      society where everyone can achieve their full potential.
+                    </p>
+                  </div>
+                </article>
               </div>
-            </div>
+              <!-- Card 2 -->
+              <div class="col-md-4">
+                <article class="card h-100 text-center">
+                  <div class="card-body">
+                    <h3 class="card-title">Equality for yourself</h3>
+                    <p class="card-text">
+                      You may not think it benefits you, but it does. Diversity
+                      brings a variety of perspectives, experiences, and ideas to
+                      the table, which can lead to more innovative solutions and
+                      better decision-making. It also helps to create a more
+                      inclusive and welcoming environment where everyone feels
+                      valued and respected. By embracing diversity, we can learn
+                      from one another and grow as individuals and as a society.
+                      Additionally, diverse teams have been shown to perform
+                      better and achieve greater success in various fields,
+                      including business, education, and healthcare. Overall,
+                      diversity is essential for creating a more equitable and
+                      prosperous world for everyone.
+                    </p>
+                  </div>
+                </article>
+              </div>
+              <!-- Card 3 -->
+              <div class="col-md-4">
+                <article class="card h-100 text-center">
+                  <div class="card-body">
+                    <h3 class="card-title">Reflection</h3>
+                    <p class="card-text">
+                      When you regocnise that others are experiencing their own
+                      problems and challenges, it can help you develop empathy and
+                      compassion. This can lead to a greater sense of connection
+                      and understanding with others, which can be beneficial for
+                      building relationships and fostering a sense of community.
+                      Additionally, recognizing that everyone has their own
+                      struggles can help you put your own problems into
+                      perspective and appreciate the positive aspects of your
+                      life. It can also inspire you to be more supportive and
+                      helpful to others who may be going through difficult times.
+                      Overall, acknowledging that others have their own issues can
+                      lead to greater empathy, compassion, and a stronger sense of
+                      connection with those around you.
+                    </p>
+                  </div>
+                </article>
+              </div>
           </div>
-          <!-- Card 2 -->
-          <div class="col-md-4">
-            <div class="card h-100 text-center">
-              <div class="card-body">
-                <h3 class="card-title">Equality for yourself</h3>
-                <p class="card-text">
-                  You may not think it benefits you, but it does. Diversity brings a variety of perspectives, experiences, and ideas to the table, which can lead to more innovative solutions and better decision-making. It also helps to create a more inclusive and welcoming environment where everyone feels valued and respected. By embracing diversity, we can learn from one another and grow as individuals and as a society. Additionally, diverse teams have been shown to perform better and achieve greater success in various fields, including business, education, and healthcare. Overall, diversity is essential for creating a more equitable and prosperous world for everyone.
-                </p>
-              </div>
+        </div>
+      </section>
+
+      <section id="tips-section" class="coming-soon-regular">
+        <div
+          class="container my-5 min-vh-100 d-flex flex-column justify-content-center tips-section-container"
+        >
+          <h2 class="text-center mb-4">
+            Tips for Promoting Diversity and Equality
+          </h2>
+          <!-- If you add more tips, use the row below -->
+          <!-- <div class="row g-4 justify-content-center align-items-stretch"></div> -->
+          <div
+            class="d-flex flex-column justify-content-between h-100 tips-section-flex"
+          >
+            <div class="list-group-item flex-fill text-center mb-4">
+              <strong>Educate Yourself:</strong><br />
+              Learn about different cultures, identities, and experiences to
+              better understand and appreciate diversity.
             </div>
-          </div>
-          <!-- Card 3 -->
-          <div class="col-md-4">
-            <div class="card h-100 text-center">
-              <div class="card-body">
-                <h3 class="card-title">Reflection</h3>
-                <p class="card-text">
-                  When you regocnise that others are experiencing their own problems and challenges, it can help you develop empathy and compassion. This can lead to a greater sense of connection and understanding with others, which can be beneficial for building relationships and fostering a sense of community. Additionally, recognizing that everyone has their own struggles can help you put your own problems into perspective and appreciate the positive aspects of your life. It can also inspire you to be more supportive and helpful to others who may be going through difficult times. Overall, acknowledging that others have their own issues can lead to greater empathy, compassion, and a stronger sense of connection with those around you.
-                </p>
-              </div>
+            <div class="list-group-item flex-fill text-center mb-4">
+              <strong>Challenge Stereotypes:</strong><br />
+              Question and confront stereotypes and biases you may hold, and
+              encourage others to do the same.
+            </div>
+            <div class="list-group-item flex-fill text-center">
+              <strong>Promote Inclusive Language:</strong><br />
+              Use language that is respectful and inclusive of all individuals,
+              avoiding terms that may be offensive or exclusionary.
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section id="tips-section" class="coming-soon-regular">
-      <div class="container my-5 min-vh-100 d-flex flex-column justify-content-center tips-section-container">
-  <h2 class="text-center mb-4">Tips for Promoting Diversity and Equality</h2>
-  <!-- If you add more tips, use the row below -->
-  <!-- <div class="row g-4 justify-content-center align-items-stretch"></div> -->
-        <div class="d-flex flex-column justify-content-between h-100 tips-section-flex">
-          <div class="list-group-item flex-fill text-center mb-4">
-            <strong>Educate Yourself:</strong><br />
-            Learn about different cultures, identities, and experiences to better understand and appreciate diversity.
-          </div>
-          <div class="list-group-item flex-fill text-center mb-4">
-            <strong>Challenge Stereotypes:</strong><br />
-            Question and confront stereotypes and biases you may hold, and encourage others to do the same.
-          </div>
-          <div class="list-group-item flex-fill text-center">
-            <strong>Promote Inclusive Language:</strong><br />
-            Use language that is respectful and inclusive of all individuals, avoiding terms that may be offensive or exclusionary.
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <footer class="bg-dark text-center py-4 mt-5" style="font-family: 'Inter', sans-serif;">
+      <section id="where-we-are-going">
+        <article
+          class="container-fluid my-5 p-4 rounded shadow-lg"
+          style="max-width: 100%; font-family: 'Inter', 'Coming Soon', Arial, sans-serif; word-break: break-word; hyphens: auto;"
+        >
+          <h2 class="text-center mb-4" style="word-break: break-word; hyphens: auto;">
+            <s>This page doesn't exist yet</s>
+          </h2>
+          <p class="mb-3" style="font-size: 1.1rem; line-height: 1.7; word-break: break-word;">
+            Okay, it clearly does. <br /><br />
+            But imagine this same page without styling, without design, without
+            CSS. You can forget about AI 🤖. Even search engines 🔍 would feel
+            useless.
+          </p>
+          <p class="mb-3" style="font-size: 1.1rem; line-height: 1.7; word-break: break-word;">
+            That contrast alone shows just how far we’ve come. Without progress,
+            we’d still be far, far behind. <br />
+            But we’re not 🚀
+          </p>
+          <p class="mb-3" style="font-size: 1.1rem; line-height: 1.7; word-break: break-word;">
+            Because it took countless people—innovators, dreamers, problem-solvers—to bring computers to where they are today. And if we had never asked how we could empower <em>more</em> people to contribute, we’d still be stuck in the past ⏳
+          </p>
+          <p class="mb-3" style="font-size: 1.1rem; line-height: 1.7; word-break: break-word;">
+            No next-day delivery 📦, instant messaging 💬 or video games 🎮 <br />
+            No endless movies 🎬, music 🎵, or laughs 😂 at your fingertips.<br />
+            No vast encyclopedias of human knowledge only a click, tap, or scroll away 🌐
+          </p>
+          <p class="mb-3" style="font-size: 1.1rem; line-height: 1.7; word-break: break-word;"></p>
+            Music would be quieter 🎶. Art, duller 🎨. Food, more bland 🍽️
+          </p>
+          <p class="mb-3" style="font-size: 1.1rem; line-height: 1.7; word-break: break-word;"></p>
+            And perhaps most importantly—you wouldn’t know that people like you exist. People who <em>also</em> do those quirky little things 🤔
+          </p>
+          <p class="mb-3" style="font-size: 1.1rem; line-height: 1.7; word-break: break-word;">
+            That’s why it matters that we work to make society fairer, more open, and more accessible. Because when more people can join in, we all benefit 🤝
+          </p>
+          <p class="mb-3" style="font-size: 1.1rem; line-height: 1.7; word-break: break-word;">
+            And because we’ve already started that journey, we now share more wonderful things than ever before 🌟
+          </p>
+          <p class="mb-3" style="font-size: 1.1rem; line-height: 1.7; word-break: break-word;">
+            We find it easier to relate to others. We see ourselves reflected in people across the globe 🌍<br />
+            “Finally—someone else who says it like <i>that!</i>”<br />
+            “Wait, they also do <i>this</i> thing in <i>that</i> order? I thought I was the only one!” 😄
+          </p>
+          <p class="mb-3" style="font-size: 1.1rem; line-height: 1.7; word-break: break-word;"></p>
+            Equality and Diversity only amplifies our ability to create, innovate, and connect 🌈
+          </p>
+          <p class="mb-3" style="font-size: 1.1rem; line-height: 1.7; word-break: break-word;">
+            The more we recognise that there's still work to be done, the quicker we'll move ⏩
+          </p>
+          <p style="font-size: 1.1rem; line-height: 1.7; word-break: break-word;">
+            And when we move quicker, we can live for so much more 💡
+          </p>
+        </article>
+      </section>
+    </main>
+    <footer
+      class="bg-dark text-center py-4 mt-5"
+      style="font-family: 'Inter', sans-serif"
+    >
       <h3 class="mb-3 footer-title">Resources</h3>
-      <a href="https://www.equalityhumanrights.com/about-us/who-we-are" class="fw-bold text-decoration-underline mx-2 footer-link">EHRC</a>
-      <a href="https://www.legislation.gov.uk/ukpga/2010/15/contents" class="fw-bold text-decoration-underline mx-2 footer-link">Equality Act 2010</a>
-      <a href="https://www.amnesty.org/en/" class="fw-bold text-decoration-underline mx-2 footer-link">Amnesty International</a>
+      <a
+        href="https://www.equalityhumanrights.com/about-us/who-we-are"
+        class="fw-bold text-decoration-underline mx-2 footer-link"
+        >EHRC</a
+      >
+      <a
+        href="https://www.legislation.gov.uk/ukpga/2010/15/contents"
+        class="fw-bold text-decoration-underline mx-2 footer-link"
+        >Equality Act 2010</a
+      >
+      <a
+        href="https://www.amnesty.org/en/"
+        class="fw-bold text-decoration-underline mx-2 footer-link"
+        >Amnesty International</a
+      >
       <div id="footer-sparkles"></div>
     </footer>
 
