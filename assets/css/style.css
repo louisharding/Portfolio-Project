@@ -1,3 +1,17 @@
+.gradient-primary {
+  background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+  color: #212529;
+}
+.gradient-accent {
+  background: linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%);
+  color: #212529;
+}
+.gradient-secondary {
+  background: linear-gradient(90deg, #f9d29d 0%, #ffd6e0 100%);
+  color: #6c757d;
+  padding: 0.5em 0;
+  border-radius: 0.5em;
+}
 .footer-fade {
   width: 100%;
   height: 48px;
@@ -59,7 +73,6 @@ footer a:hover {
 
 /* Infocards container styles moved from inline */
 .infocards-container {
-  box-shadow: 0 0 60px 30px rgba(246, 211, 101, 0.15);
   border-radius: 1.5em;
 }
 .card-title {
@@ -87,6 +100,7 @@ html {
 body {
   background-color: #f8f9fa;
   color: #212529;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
 }
 .bg-primary {
   background-color: #0d6efd !important;
