@@ -5,7 +5,10 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/css/style.css" />
@@ -26,20 +29,25 @@
       <!-- Hero Section 1: Classic Jumbotron Style -->
       <section
         class="gradient-primary py-5 text-center min-vh-100 d-flex flex-column justify-content-center"
-      >
+      >          <h1 class="display-4 fw-bold">Diversity and Equality</h1>
+          <p class="lead">Makes life better for me, them and you.</p>
         <div class="container">
-          <h1 class="display-4 fw-bold">Diversity and Equality</h1>
-          <p class="lead">
-            Celebrating differences and building a fairer world for all.
-          </p>
-          <img
-            src="https://undraw.co/illustrations"
-            alt="Diversity illustration"
-            class="img-fluid my-4 hero-img"
-          />
-          <a href="#infocards-section" class="btn btn-primary mt-4">
-            Why does society need it?
-          </a>
+
+            <a href="#infocards-section" class="position-relative d-inline-block">
+            <img
+              src="assets/images/peopleInField.png"
+              alt="Diversity illustration"
+              class="img-fluid my-4 hero-img"
+              style="cursor: pointer; transform: scale(2); opacity: 0.25;"
+            />
+            <div
+              class="position-absolute top-50 start-50 translate-middle px-4 py-2 rounded shadow"
+              style="background: rgba(255,255,255,0.8); color: #333; font-size: 1.5rem; font-weight: 600; font-family: 'Inter', sans-serif;"
+            >
+              How?
+            </div>
+            </a>
+
         </div>
       </section>
     </header>
@@ -123,27 +131,26 @@
     </section>
 
     <section id="tips-section">
-      <div
-        class="container my-5 min-vh-100 d-flex flex-column justify-content-center"
-      >
+      <div class="container my-5 min-vh-100 d-flex flex-column justify-content-center">
         <h2 class="text-center mb-4 gradient-secondary">
           Tips for Promoting Diversity and Equality
         </h2>
-        <ul class="list-group">
-          <li class="list-group-item">
-            Educate Yourself: Learn about different cultures, identities, and
-            experiences to better understand and appreciate diversity.
-          </li>
-          <li class="list-group-item">
-            Challenge Stereotypes: Question and confront stereotypes and biases
-            you may hold, and encourage others to do the same.
-          </li>
-          <li class="list-group-item">
-            Promote Inclusive Language: Use language that is respectful and
-            inclusive of all individuals, avoiding terms that may be offensive
-            or exclusionary.
-          </li>
-        </ul>
+        <div class="row g-4 justify-content-center align-items-stretch">
+          <div class="d-flex flex-column justify-content-between h-100" style="min-height: 60vh;">
+            <div class="list-group-item flex-fill text-center mb-4">
+              <strong>Educate Yourself:</strong><br>
+              Learn about different cultures, identities, and experiences to better understand and appreciate diversity.
+            </div>
+            <div class="list-group-item flex-fill text-center mb-4">
+              <strong>Challenge Stereotypes:</strong><br>
+              Question and confront stereotypes and biases you may hold, and encourage others to do the same.
+            </div>
+            <div class="list-group-item flex-fill text-center">
+              <strong>Promote Inclusive Language:</strong><br>
+              Use language that is respectful and inclusive of all individuals, avoiding terms that may be offensive or exclusionary.
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
