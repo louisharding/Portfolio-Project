@@ -1,3 +1,19 @@
+.tips-section-container {
+  background: linear-gradient(135deg, rgba(60, 180, 75, 0.18) 0%, rgba(255, 255, 255, 0) 100%);
+  border-radius: 1rem;
+}
+.tips-section-flex {
+  min-height: 60vh;
+}
+.footer-title {
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: black;
+}
+.footer-link {
+  color: #ff7300;
+  font-size: 1.1rem;
+}
 .gradient-primary {
   background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
   color: #212529;
