@@ -1,3 +1,15 @@
+
+/* Hero image styles moved from inline */
+.hero-img {
+  max-width: 400px;
+  border-radius: 1rem;
+}
+
+/* Infocards container styles moved from inline */
+.infocards-container {
+  box-shadow: 0 0 60px 30px rgba(246, 211, 101, 0.15);
+  border-radius: 1.5em;
+}
 .card-title {
   font-weight: bold;
   color: #0d6efd; /* Bootstrap primary blue */
@@ -11,7 +23,7 @@
 
 html {
   scroll-behavior: smooth;
-}   
+}
 
 .hero-fullscreen {
   min-height: 100vh;
@@ -19,3 +31,37 @@ html {
   align-items: center;
   justify-content: center;
 }
+
+body {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+.bg-primary {
+  background-color: #0d6efd !important;
+  color: #fff !important;
+}
+.bg-accent {
+  background-color: #198754 !important;
+  color: #fff !important;
+}
+.text-secondary {
+  color: #6c757d !important;
+}
+.card {
+  border: none;
+  background-color: transparent !important ;
+}
+.card-title {
+  color: #0d6efd;
+}
+.card-text {
+  color: #212529;
+}
+a {
+  color: #0d6efd;
+}
+a:hover {
+  color: #198754;
+  text-decoration: underline;
+}
+

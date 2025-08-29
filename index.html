@@ -8,6 +8,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <style>
+      .gradient-primary {
+        background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+        color: #212529;
+      }
+      .gradient-accent {
+        background: linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%);
+        color: #212529;
+      }
+      .gradient-secondary {
+        background: linear-gradient(90deg, #f9d29d 0%, #ffd6e0 100%);
+        color: #6c757d;
+        padding: 0.5em 0;
+        border-radius: 0.5em;
+      }
+    </style>
     <title>Diversity and Equality</title>
   </head>
   <body>
@@ -24,23 +40,28 @@
       </nav>
       <!-- Hero Section 1: Classic Jumbotron Style -->
       <section
-        class="bg-light py-5 text-center min-vh-100 d-flex flex-column justify-content-center"
+        class="gradient-primary py-5 text-center min-vh-100 d-flex flex-column justify-content-center"
       >
         <div class="container">
           <h1 class="display-4 fw-bold">Diversity and Equality</h1>
-          <p class="lead"></p>
-          <a href="#infocards-section" class="btn btn-primary mt-4"
-            >Why does society need it?</a
-          >
+          <p class="lead">
+            Celebrating differences and building a fairer world for all.
+          </p>
+          <img
+            src="https://undraw.co/illustrations"
+            alt="Diversity illustration"
+            class="img-fluid my-4 hero-img"
+          />
+          <a href="#infocards-section" class="btn btn-primary mt-4">
+            Why does society need it?
+          </a>
         </div>
       </section>
     </header>
 
     <!-- BS Fixed width container adapts to screen size with padding between screen. my-5 is margin for y axis of 5, bootstrap's largest predefined scale'-->
     <section id="infocards-section">
-      <div
-        class="container my-5 min-vh-100 d-flex flex-column justify-content-center"
-      >
+      <div class="container my-5 min-vh-100 d-flex flex-column justify-content-center gradient-accent infocards-container">
         <!-- BS grid container for horizontal columns -->
         <div class="row g-4">
           <!-- Card 1 -->
@@ -118,7 +139,7 @@
       <div
         class="container my-5 min-vh-100 d-flex flex-column justify-content-center"
       >
-        <h2 class="text-center mb-4">
+        <h2 class="text-center mb-4 gradient-secondary">
           Tips for Promoting Diversity and Equality
         </h2>
         <ul class="list-group">
